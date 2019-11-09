@@ -1,0 +1,22 @@
+{
+    "name": "supernova-developer/simple-auth-codeigniter",
+    "description": "belajar membuat skeleton web",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "codeigniter",
+        "auth",
+        "learn"
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "skel/post_create_project.php"
+        ]
+    }
+}
